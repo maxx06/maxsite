@@ -31,8 +31,8 @@ html {
   background: linear-gradient(to right top, #0E0D25, #030818) no-repeat;
 }
 body {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 nav {
@@ -56,6 +56,10 @@ nav > ul {
   -webkit-text-fill-color: transparent;
   font-family: "Krona One";
   font-size: 2.5em;
+}
+
+.intro {
+  
 }
 
 p {
