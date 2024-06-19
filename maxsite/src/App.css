@@ -1,4 +1,4 @@
-.App {
+/* .body {
   text-align: center;
 }
 
@@ -11,19 +11,8 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
+} */
+/* 
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +24,41 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+html {
+  background: linear-gradient(to right top, #0E0D25, #030818) no-repeat;
+}
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.main--name {
+  background: -webkit-repeating-linear-gradient(0deg, rgb(191, 0, 249), rgb(0, 255, 204));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Krona One";
+  font-size: 2.5em;
+}
+
+p {
+  color: white;
+  font-family:'Kumbh Sans', Tahoma, Geneva, Verdana, sans-serif;
 }

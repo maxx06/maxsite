@@ -8,6 +8,7 @@ export default function Contact(){
                 <li>Phone</li>
                 <li>LinkedIn</li>
             </ul>
+            
         </div>
     );
 }
