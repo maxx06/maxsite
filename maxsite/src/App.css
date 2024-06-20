@@ -44,22 +44,37 @@ nav {
   padding: 10px 20px;
 }
 
-nav > ul {
+.navbar {
   list-style: none;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
+.navbaritem { 
+  color: white; 
+  text-decoration: none;
+  font-family:'Kumbh Sans', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
 .main--name {
-  background: -webkit-repeating-linear-gradient(0deg, rgb(191, 0, 249), rgb(0, 255, 204));
+  background: -webkit-repeating-linear-gradient(45deg, #9C8CFF, #CD73D2, #EC63B5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Krona One";
   font-size: 2.5em;
 }
 
+.techbropic {
+  border-radius: 100%;
+}
+
 .intro {
-  
+  background-image: radial-gradient(ellipse at center, #573663 -30%, rgba(0, 0, 0, 0) 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7em;
 }
 
 p {
