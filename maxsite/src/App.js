@@ -3,6 +3,7 @@ import React from 'react';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
 
       <Navbar />
       <Main />
+      <Projects />
       <Contact />
+
     </div>
   );
 }
