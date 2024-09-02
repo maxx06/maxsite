@@ -6,7 +6,7 @@ export default function Contact(){
             <ul>
                 <li>Email (preferred)</li>
                 <li>Phone</li>
-                <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons"></a>
+                <li>LinkedIn</li>
             </ul>
             
         </div>

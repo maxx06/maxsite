@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div className="intro">
-            <div>
+        <div className="about">
+            <div className="about--body">
                 <div>
-                    <img src="boba.png"></img>
+                    <img src="/images/bbc.png" className="boba"></img>
                 </div>
                 <div>
-                    <h1>max</h1>
-                    <p>Hi, I'm Max! I am a freshman at Duke University studying computer science and math interested in artificial intelligence. </p>
+                    <p className="colorful">Hello!</p>
+                    <p> I'm Max from Somerset, New Jersey! I am a freshman at Duke University studying computer science and math interested in artificial intelligence. </p>
                 </div>
                 
             </div>
