@@ -9,13 +9,11 @@ export default function Main() {
                 <h1 className="main--name">max xiong.</h1>
                 <p className="title-text">freshman @ duke university</p>
                 <button className="button-64">view projects          →</button>
-                <div>
-                    <ul>
-                        <li>Email (preferred)</li>
-                        <li>LinkedIn</li>
-                        <li>Google Scholar</li>
-                        <li>GitHub</li>
-                    </ul>
+                <div className="cont">
+                    <a href="mailto:mx71@duke.edu"> <img className="cont--icon" src="/images/socials/mail.png" alt="email" /> </a>
+                    <a href="https://github.com/maxx06"><img className="cont--icon" src="/images/socials/github.png" alt="github" /></a>
+                    <a href="https://www.linkedin.com/in/mx6/"> <img className="cont--icon" src="/images/socials/linkedin.png" alt="linkedin" /> </a>
+                    <a href="https://scholar.google.com/citations?user=8ttO0VoAAAAJ&hl=en">  <img className="cont--icon" src="/images/socials/scholar.png" alt="scholar" /> </a>
                 </div>
             </div>
             

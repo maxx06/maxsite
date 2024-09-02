@@ -125,6 +125,16 @@ nav {
   margin-right: 10em;
 }
 
+.cont{
+  display: flex;
+  margin-top: 2em;
+}
+
+.cont--icon {
+  margin-right: 0.5em;
+  width: 30px;
+}
+
 .colorful {
   background: -webkit-linear-gradient(0deg, #a699f6, #ff0099);
   -webkit-background-clip: text;
