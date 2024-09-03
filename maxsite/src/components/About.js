@@ -9,7 +9,7 @@ export default function About() {
                 </div>
                 <div>
                     <p className="colorful">Hello!</p>
-                    <p> I'm Max from Somerset, New Jersey! I am a freshman at Duke University studying computer science and math interested in artificial intelligence. </p>
+                    <p> I'm Max from Somerset, New Jersey! I am a freshman at Duke University studying computer science and math interested in artificial intelligence, specifically natural language processing. I also love photography, playing badminton, and drinking boba.</p>
                 </div>
                 
             </div>

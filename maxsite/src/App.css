@@ -100,7 +100,7 @@ nav {
 }
 
 .techbropic {
-  border-radius: 100%;
+  border-radius: 10%;
 }
 
 .boba {
@@ -121,8 +121,9 @@ nav {
   justify-content: space-around;
   color: white;
   flex-direction: row;
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 5em;
+  margin-right: 5em;
+  font-family:'Kumbh Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cont{
@@ -144,6 +145,7 @@ nav {
 .about--body {
   display:flex;
   text-align: left;
+  font-size: 1.10em;
 }
 
 p {

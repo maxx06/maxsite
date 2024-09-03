@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
             <div className="projectcardtext">
                 <h1>{props.title}</h1>
                 <p>{props.description}</p>
-                <btn className="button-64">{props.button} →</btn>
+                <btn className="button-64">{props.button}</btn>
             </div>
             <div className="projectcardimg">
                 <img src={props.img} alt="pic"></img>
