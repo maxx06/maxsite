@@ -135,9 +135,13 @@ nav {
   margin-right: 0.5em;
   width: 30px;
 }
+.cont--icon2 {
+  margin-right: 1em;
+  width: 35px;
+}
 
 .colorful {
-  background: -webkit-linear-gradient(0deg, #a699f6, #ff0099);
+  background: -webkit-linear-gradient(0deg, #a699f6, #e0c8fb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -146,6 +150,38 @@ nav {
   display:flex;
   text-align: left;
   font-size: 1.10em;
+}
+
+.contact{
+  align-items:center;
+  text-align: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.projectcard {
+  display: flex;
+  text-align: left;
+  margin-left: 6em;
+  margin-right: 6em;
+  font-size: 1.10em;
+  margin-bottom: 3em;
+}
+
+.projectcardtext {
+  text-align: left;
+  font-size: 1.10em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family:'Kumbh Sans', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.pcimg{
+  height: 250px;
+  border-radius: 4%;
 }
 
 p {

@@ -3,13 +3,13 @@ import React from 'react';
 export default function ProjectCard(props) {
     return (
         <div className="projectcard">
-            <div className="projectcardtext">
-                <h1>{props.title}</h1>
+            <div>
+                <p className="colorful">{props.title}</p>
                 <p>{props.description}</p>
                 <btn className="button-64">{props.button}</btn>
             </div>
-            <div className="projectcardimg">
-                <img src={props.img} alt="pic"></img>
+            <div>
+                <img src={props.img} alt="pic" className="pcimg"></img>
             </div>
         </div>
     );
