@@ -4,9 +4,8 @@ import ProjectCard from './ProjectCard';
 export default function Projects() {
     return (
         <div className="projects">
-            <ProjectCard title="Project 1" description="Description 1" button="Button 1" img="boba.png"/>
-            <ProjectCard title="Project 2" description="Description 2" button="Button 2" img="boba.png"/>
-            <ProjectCard title="Project 3" description="Description 3" button="Button 3" img="boba.png"/>
+            <h1 className="cardheading"> projects. </ h1>
+            <ProjectCard title="this website!" description="Personal website made with HTML, CSS, JS, ReactJS. Designed in Figma" button="boba" img="/images/projects/website.png"/>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact(){
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <img src="/images/stars.png" height="50"/>
             <div className="cont">
                     <a href="mailto:mx71@duke.edu"> <img className="cont--icon2" src="/images/socials/mail.png" alt="email" /> </a>

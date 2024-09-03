@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
             <div>
                 <p className="colorful">{props.title}</p>
                 <p>{props.description}</p>
-                <btn className="button-64">{props.button}</btn>
+                <a href={props.link}><btn className="button-64">{props.button}</btn></a>
             </div>
             <div>
                 <img src={props.img} alt="pic" className="pcimg"></img>

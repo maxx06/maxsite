@@ -71,7 +71,7 @@ nav {
 }
 
 .button-64 {
-  margin-top:50px;
+  margin-top:30px;
   display: inline-block;
   outline: 0;
   border:0;
@@ -83,7 +83,7 @@ nav {
   line-height: 30px;
   border-radius: 40px;
   padding: 20px;
-  padding-top: 10px;
+  padding-top:10px;
   padding-bottom: 10px;
   color:white;
   font-family: 'Kumbh Sans', Tahoma, Geneva, Verdana, sans-serif;
@@ -114,6 +114,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 80vh;
+  margin-bottom:65px;
 }
 
 .about {
@@ -123,6 +124,7 @@ nav {
   flex-direction: row;
   margin-left: 5em;
   margin-right: 5em;
+  margin-bottom: 20px;
   font-family:'Kumbh Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -163,7 +165,7 @@ nav {
 
 .projectcard {
   display: flex;
-  text-align: left;
+  text-align: justify;
   margin-left: 6em;
   margin-right: 6em;
   font-size: 1.10em;
@@ -182,6 +184,14 @@ nav {
 .pcimg{
   height: 250px;
   border-radius: 4%;
+  margin-left: 2em;
+}
+
+.cardheading {
+  font-size: 1.5em;
+  font-family:'Krona One', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
 }
 
 p {

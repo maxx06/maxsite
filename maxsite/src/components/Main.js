@@ -8,7 +8,7 @@ export default function Main() {
                 <p className="title-text">hi. i'm</p>
                 <h1 className="main--name">max xiong.</h1>
                 <p className="title-text">freshman @ duke university</p>
-                <button className="button-64">view projects          →</button>
+                <a href="#research"><button className="button-64">view projects          →</button></a>
                 <div className="cont">
                     <a href="mailto:mx71@duke.edu"> <img className="cont--icon" src="/images/socials/mail.png" alt="email" /> </a>
                     <a href="https://github.com/maxx06"><img className="cont--icon" src="/images/socials/github.png" alt="github" /></a>
