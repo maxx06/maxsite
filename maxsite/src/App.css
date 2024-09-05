@@ -29,8 +29,8 @@
 
 
 body {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 15%;
+  margin-right: 15%;
   height: 100vh;
   background: linear-gradient(to right, #02020f, #030818);
 }
@@ -122,8 +122,6 @@ nav {
   justify-content: space-around;
   color: white;
   flex-direction: row;
-  margin-left: 5em;
-  margin-right: 5em;
   margin-bottom: 20px;
   font-family:'Kumbh Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -166,8 +164,6 @@ nav {
 .projectcard {
   display: flex;
   text-align: justify;
-  margin-left: 6em;
-  margin-right: 6em;
   font-size: 1.10em;
   margin-bottom: 3em;
 }
@@ -192,6 +188,15 @@ nav {
   font-family:'Krona One', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .pcimg  {
+        display:none;
+  }
+  .techbropic {
+    display:none;
+  }
 }
 
 p {
